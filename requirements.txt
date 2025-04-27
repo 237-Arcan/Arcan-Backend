@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 flask
 gunicorn
 flask-cors
 python-dotenv
 waitress
+=======
+Flask==3.0.2
+>>>>>>> d59e7d142e625513bf63aeacf5d4e46791a43343
