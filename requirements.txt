@@ -1,6 +1,4 @@
-flask
-gunicorn
-flask-cors
-python-dotenv
-waitress
-Flask==3.0.2
+# Dépendances du projet
+litestar
+uvicorn
+

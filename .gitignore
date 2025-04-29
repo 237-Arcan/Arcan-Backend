@@ -1,4 +1,4 @@
+# Ignorer les fichiers .env, __pycache__, etc.
+.env
 __pycache__/
 *.pyc
-venv/
-.env
