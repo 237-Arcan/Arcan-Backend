@@ -1,1 +1,2 @@
-# Package init
+# arcanapp/__init__.py
+# Init file

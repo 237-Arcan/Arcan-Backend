@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from flask import Flask, jsonify
 from app.utils.env_loader import load_environment
 from app.modules.module1 import module1_function
@@ -39,11 +38,9 @@ sys.path.insert(0, ROOT_DIR)
 # Dans flask_app.py ou autres
 from app.core.loader import ArcanLoader
 print(ArcanLoader.load_config())  # Test
-=======
 from mysite import create_app
 
 app = create_app()
 
 if __name__ == "__main__":
     app.run(debug=True)
->>>>>>> d59e7d142e625513bf63aeacf5d4e46791a43343

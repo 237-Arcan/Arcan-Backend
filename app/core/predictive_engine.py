@@ -13,3 +13,4 @@ def train_predictive_model(data):
     model = LogisticRegression()
     model.fit(X, y)
     return model
+
