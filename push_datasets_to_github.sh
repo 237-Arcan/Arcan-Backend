@@ -1,13 +1,22 @@
 #!/bin/bash
 
-# Étape 1 : Création de l'arborescence si elle n'existe pas
-mkdir -p data/results
-mkdir -p data/leagues
+echo "[*] Création de l’arborescence de dossiers..."
 
-echo "[✓] Arborescence des dossiers créée."
+# Liste des dossiers à créer
+folders=(
+  "data"
+  "data/results"
+  "data/leagues"
+)
 
-# Étape 2 : Vérifie la présence des fichiers requis
-declare -a required_files=(
+# Création des dossiers
+for folder in "${folders[@]}"; do
+  mkdir -p "$folder"
+  echo "[✓] Dossier créé : $folder"
+done
+
+# Liste des fichiers attendus (pour info uniquement)
+expected_files=(
   "data/results/actual_results.csv"
   "data/results/results.parquet"
   "data/leagues/english-premier-league.csv"
@@ -17,23 +26,26 @@ declare -a required_files=(
   "data/leagues/french-ligue-1.csv"
 )
 
-all_present=true
+echo ""
+echo "[!] Vérification des fichiers (informations seulement) :"
 
-for file in "${required_files[@]}"; do
+missing=false
+for file in "${expected_files[@]}"; do
   if [ ! -f "$file" ]; then
-    echo "[!] Fichier manquant : $file"
-    all_present=false
+    echo "  [!] Fichier manquant (à créer plus tard) : $file"
+    missing=true
   fi
 done
 
-if [ "$all_present" = false ]; then
-  echo "Erreur : Un ou plusieurs fichiers de jeux de données sont manquants."
-  exit 1
-fi
+echo ""
+echo "[✓] Arborescence prête. Les fichiers manquants seront ajoutés manuellement."
+exit 0
 
-# Étape 3 : Ajout et commit dans Git
-git add data/
-git commit -m "Ajout des jeux de données recommandés pour ArcanApp"
-git push origin main  # remplace 'main' si ta branche est 'master'
 
-echo "[✓] Fichiers poussés sur GitHub avec succès."
+# Ajoute ce bloc à la fin de ton script push_datasets_to_github.sh
+
+# Ajouter des fichiers .gitkeep pour que les dossiers vides soient suivis par Git
+for folder in "${folders[@]}"; do
+  touch "$folder/.gitkeep"
+  echo "[+] .gitkeep ajouté à : $folder"
+done
