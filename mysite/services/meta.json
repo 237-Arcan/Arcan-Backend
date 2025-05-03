@@ -1,0 +1,9 @@
+{
+    "folder": "services",
+    "path": "/data/data/com.termux/files/home/arcan-backend/mysite/services",
+    "created": "2025-05-02T20:26:41.599643",
+    "files": [
+        "external_api.py"
+    ],
+    "subfolders": []
+}

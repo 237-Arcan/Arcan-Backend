@@ -1,0 +1,16 @@
+{
+    "folder": "mysite",
+    "path": "/data/data/com.termux/files/home/arcan-backend/mysite",
+    "created": "2025-05-02T20:26:41.592053",
+    "files": [
+        "__init__.py",
+        "routes.py",
+        "flask_app1.py"
+    ],
+    "subfolders": [
+        "controllers",
+        "services",
+        "utils",
+        "__pycache__"
+    ]
+}

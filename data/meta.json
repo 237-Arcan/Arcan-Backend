@@ -1,0 +1,17 @@
+{
+    "folder": "data",
+    "path": "/data/data/com.termux/files/home/arcan-backend/data",
+    "created": "2025-05-02T20:26:41.879311",
+    "files": [
+        "README.md",
+        "merge_test_blocks.py"
+    ],
+    "subfolders": [
+        "results",
+        "leagues",
+        "raw",
+        "processed",
+        "matches",
+        "tests"
+    ]
+}

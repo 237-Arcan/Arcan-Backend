@@ -1,0 +1,44 @@
+[
+  {
+    "name": "",
+    "description": "Module intégré à ArcanShadow",
+    "version": "1.0.0",
+    "type": [
+      "statistical"
+    ],
+    "compatible_with": [
+      "shadow"
+    ],
+    "enabled": true,
+    "entrypoint": "on_prediction_request",
+    "last_updated": "2025-05-02T05:56:11.498984Z"
+  },
+  {
+    "name": "arcan_archive",
+    "version": "1.0.0",
+    "description": "Déclencheur et téléchargeur automatique des archives ArcanX",
+    "author": "ArcanForge",
+    "dependencies": [
+      "requests",
+      "os",
+      "json"
+    ],
+    "triggers": {
+      "type": "prediction_count",
+      "threshold": 5,
+      "target": "archive_downloader"
+    },
+    "outputs": [
+      "Fichiers JSON de matchs archivés",
+      "Logs de téléchargement"
+    ],
+    "status": "active",
+    "group": "infrastructure",
+    "tags": [
+      "data",
+      "loader",
+      "arcanx",
+      "archives"
+    ]
+  }
+]

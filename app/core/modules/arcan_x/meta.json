@@ -1,0 +1,13 @@
+{
+    "name": "arcan_x",
+    "description": "Module arcan_x g\u00e9n\u00e9r\u00e9 automatiquement.",
+    "type": "arcanx",
+    "compatible_with": [
+        "pre-match",
+        "cosmic",
+        "numerology"
+    ],
+    "author": "ArcanForge",
+    "version": "1.0",
+    "enabled": true
+}

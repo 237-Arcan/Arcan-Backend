@@ -1,0 +1,19 @@
+{
+  "name": "arcan_archive",
+  "version": "1.0.0",
+  "description": "Déclencheur et téléchargeur automatique d'archives ArcanX",
+  "author": "ArcanForge",
+  "dependencies": ["requests", "os", "json"],
+  "triggers": {
+    "type": "prediction_count",
+    "threshold": 5,
+    "target": "archive_downloader"
+  },
+  "outputs": [
+    "Fichiers JSON de matchs archivés",
+    "Logs de téléchargement"
+  ],
+  "status": "active",
+  "group": "infrastructure",
+  "tags": ["data", "loader", "arcanx", "archives"]
+}

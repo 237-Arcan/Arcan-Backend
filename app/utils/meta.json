@@ -1,0 +1,12 @@
+{
+    "folder": "utils",
+    "path": "/data/data/com.termux/files/home/arcan-backend/app/utils",
+    "created": "2025-05-02T20:26:40.744144",
+    "files": [
+        "env_loader.py",
+        "__init__.py"
+    ],
+    "subfolders": [
+        "__pycache__"
+    ]
+}

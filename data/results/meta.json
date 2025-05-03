@@ -1,0 +1,15 @@
+{
+    "folder": "results",
+    "path": "/data/data/com.termux/files/home/arcan-backend/data/results",
+    "created": "2025-05-02T20:26:41.884642",
+    "files": [
+        "README.md",
+        "goalscorers.csv",
+        "results.csv"
+    ],
+    "subfolders": [
+        "results.paquets",
+        "formations",
+        "goals_time"
+    ]
+}

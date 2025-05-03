@@ -1,0 +1,11 @@
+{
+    "folder": "services",
+    "path": "/data/data/com.termux/files/home/arcan-backend/services",
+    "created": "2025-05-02T20:26:41.606602",
+    "files": [
+        "odds_fetcher.py"
+    ],
+    "subfolders": [
+        "__pycache__"
+    ]
+}

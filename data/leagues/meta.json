@@ -1,0 +1,14 @@
+{
+    "folder": "leagues",
+    "path": "/data/data/com.termux/files/home/arcan-backend/data/leagues",
+    "created": "2025-05-02T20:26:41.892255",
+    "files": [
+        "README.md",
+        "Bundesliga",
+        "LICENSE",
+        "former_names.csv",
+        "results.csv",
+        "shootouts.csv"
+    ],
+    "subfolders": []
+}

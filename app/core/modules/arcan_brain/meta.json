@@ -1,0 +1,12 @@
+{
+    "name": "arcan_brain",
+    "description": "Module arcan_brain g\u00e9n\u00e9r\u00e9 automatiquement.",
+    "type": "brain",
+    "compatible_with": [
+        "meta",
+        "analysis"
+    ],
+    "author": "ArcanForge",
+    "version": "1.0",
+    "enabled": true
+}

@@ -1,0 +1,12 @@
+{
+    "folder": "data_weaver",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcanapp/app/meta_levels/data_weaver",
+    "created": "2025-05-02T20:26:41.779935",
+    "files": [
+        "__init__.py",
+        "parallel_engine.py",
+        "distributed_feed.py",
+        "README.md"
+    ],
+    "subfolders": []
+}

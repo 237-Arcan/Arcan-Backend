@@ -1,0 +1,12 @@
+{
+    "folder": "time_warper",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcanapp/app/meta_levels/time_warper",
+    "created": "2025-05-02T20:26:41.775066",
+    "files": [
+        "__init__.py",
+        "time_analysis.py",
+        "anomaly_detector.py",
+        "README.md"
+    ],
+    "subfolders": []
+}

@@ -1,0 +1,11 @@
+{
+    "folder": "utils",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcan_core/utils",
+    "created": "2025-05-02T20:26:41.640099",
+    "files": [
+        "helpers.py",
+        "validations.py",
+        "utils_service.py"
+    ],
+    "subfolders": []
+}

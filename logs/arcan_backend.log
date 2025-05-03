@@ -1,0 +1,30 @@
+2025-05-02 13:35:39,135 - ArcanOrchestrator - INFO - Démarrage Arcan-Backend
+2025-05-02 13:35:39,137 - ArcanOrchestrator - ERROR - Erreur chargement config: [Errno 2] No such file or directory: 'config/settings.yaml'
+2025-05-02 13:35:39,137 - ArcanOrchestrator - CRITICAL - Erreur critique: [Errno 2] No such file or directory: 'config/settings.yaml'
+2025-05-02 13:38:44,889 - ArcanOrchestrator - INFO - Démarrage Arcan-Backend
+2025-05-02 13:38:44,891 - ArcanOrchestrator - ERROR - Erreur chargement config: [Errno 2] No such file or directory: 'config/settings.yaml'
+2025-05-02 13:38:44,892 - ArcanOrchestrator - CRITICAL - Erreur critique: [Errno 2] No such file or directory: 'config/settings.yaml'
+2025-05-02 13:41:49,951 - ArcanOrchestrator - INFO - Démarrage Arcan-Backend
+2025-05-02 13:41:49,953 - ArcanOrchestrator - ERROR - Erreur chargement config: [Errno 2] No such file or directory: 'config/settings.yaml'
+2025-05-02 13:41:49,954 - ArcanOrchestrator - CRITICAL - Erreur critique: [Errno 2] No such file or directory: 'config/settings.yaml'
+2025-05-02 13:42:43,941 - ArcanOrchestrator - INFO - Démarrage Arcan-Backend
+2025-05-02 13:42:43,943 - ArcanOrchestrator - ERROR - Erreur chargement config: [Errno 2] No such file or directory: 'config/settings.yaml'
+2025-05-02 13:42:43,944 - ArcanOrchestrator - CRITICAL - Erreur critique: [Errno 2] No such file or directory: 'config/settings.yaml'
+2025-05-02 13:44:18,679 - ArcanOrchestrator - INFO - Démarrage Arcan-Backend
+2025-05-02 13:44:20,048 - ArcanOrchestrator - ERROR - Erreur chargement app.core.orchestrator: No module named 'app.core.orchestrator'
+2025-05-02 13:44:20,054 - ArcanOrchestrator - ERROR - Erreur chargement app.core.predictive_engine: No module named 'sklearn'
+2025-05-02 13:44:20,059 - ArcanOrchestrator - ERROR - Erreur chargement app.core.realtime_dashboard: No module named 'streamlit'
+2025-05-02 13:44:20,063 - ArcanOrchestrator - ERROR - Erreur chargement app.core.module_manager: module 'app.core.module_manager' has no attribute 'ModuleManager'
+2025-05-02 13:44:41,911 - ArcanOrchestrator - INFO - Pipeline terminé. Résultats sauvegardés.
+2025-05-02 13:44:51,288 - ArcanOrchestrator - INFO - Démarrage Arcan-Backend
+2025-05-02 13:44:52,379 - ArcanOrchestrator - ERROR - Erreur chargement app.core.orchestrator: No module named 'app.core.orchestrator'
+2025-05-02 13:44:52,382 - ArcanOrchestrator - ERROR - Erreur chargement app.core.predictive_engine: No module named 'sklearn'
+2025-05-02 13:44:52,385 - ArcanOrchestrator - ERROR - Erreur chargement app.core.realtime_dashboard: No module named 'streamlit'
+2025-05-02 13:44:52,387 - ArcanOrchestrator - ERROR - Erreur chargement app.core.module_manager: module 'app.core.module_manager' has no attribute 'ModuleManager'
+2025-05-02 13:44:55,803 - ArcanOrchestrator - INFO - Pipeline terminé. Résultats sauvegardés.
+2025-05-02 13:45:02,792 - ArcanOrchestrator - INFO - Démarrage Arcan-Backend
+2025-05-02 13:45:03,859 - ArcanOrchestrator - ERROR - Erreur chargement app.core.orchestrator: No module named 'app.core.orchestrator'
+2025-05-02 13:45:03,862 - ArcanOrchestrator - ERROR - Erreur chargement app.core.predictive_engine: No module named 'sklearn'
+2025-05-02 13:45:03,866 - ArcanOrchestrator - ERROR - Erreur chargement app.core.realtime_dashboard: No module named 'streamlit'
+2025-05-02 13:45:03,867 - ArcanOrchestrator - ERROR - Erreur chargement app.core.module_manager: module 'app.core.module_manager' has no attribute 'ModuleManager'
+2025-05-02 13:45:09,028 - ArcanOrchestrator - INFO - Pipeline terminé. Résultats sauvegardés.

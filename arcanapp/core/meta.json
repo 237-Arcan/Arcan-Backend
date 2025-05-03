@@ -1,0 +1,13 @@
+{
+    "folder": "core",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcanapp/core",
+    "created": "2025-05-02T20:26:41.747154",
+    "files": [
+        "__init__.py",
+        "orchestrator.py",
+        "logger.py"
+    ],
+    "subfolders": [
+        "__pycache__"
+    ]
+}

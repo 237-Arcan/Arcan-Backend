@@ -1,0 +1,15 @@
+{
+    "folder": "arcan_core",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcan_core",
+    "created": "2025-05-02T20:26:41.616459",
+    "files": [
+        "__init__.py"
+    ],
+    "subfolders": [
+        "arcanx",
+        "shadowodds",
+        "modules",
+        "utils",
+        "__pycache__"
+    ]
+}

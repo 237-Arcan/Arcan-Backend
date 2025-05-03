@@ -1,0 +1,11 @@
+{
+    "folder": "tests",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcanapp/tests",
+    "created": "2025-05-02T20:26:41.791719",
+    "files": [],
+    "subfolders": [
+        "unit",
+        "integration",
+        "performance"
+    ]
+}

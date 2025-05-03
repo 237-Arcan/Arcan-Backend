@@ -1,0 +1,17 @@
+{
+    "folder": "meta_levels",
+    "path": "/data/data/com.termux/files/home/arcan-backend/app/core/meta_levels",
+    "created": "2025-05-02T20:26:40.721100",
+    "files": [
+        "meta_loader.py",
+        "__init__.py"
+    ],
+    "subfolders": [
+        "d_gridsync",
+        "arcanreflex",
+        "soulweaver",
+        "mindpulse",
+        "dynacore",
+        "timeline_stitcher"
+    ]
+}

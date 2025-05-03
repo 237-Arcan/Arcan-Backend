@@ -15,3 +15,5 @@ def create_app(config_name="development"):
     print("Application lancée.")
 
     return app
+
+from notifications.notify_manager import send_push_notification, send_email, check_odds_alert

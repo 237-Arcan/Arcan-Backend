@@ -1,0 +1,16 @@
+{
+    "folder": "api",
+    "path": "/data/data/com.termux/files/home/arcan-backend/api",
+    "created": "2025-05-02T20:26:41.582655",
+    "files": [
+        "shadow_odds.py",
+        "main.py",
+        "arcanx.py",
+        "shadow.py",
+        "live.py",
+        "test_main.py"
+    ],
+    "subfolders": [
+        "routes"
+    ]
+}
