@@ -1,0 +1,8 @@
+{
+    "name": "EasternGate",
+    "description": "Module optimisé pour les compétitions asiatiques.",
+    "version": "1.0.0",
+    "author": "ArcanForge",
+    "compatible_with": ["shadow", "sentinel"],
+    "status": "active"
+}
