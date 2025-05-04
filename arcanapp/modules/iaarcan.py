@@ -46,3 +46,18 @@ class IAArcan:
         if activated:
             self.active_context["triggered_modules"] = activated  # Journalisation des modules déclenchés
         return activated
+
+from app.core.logger import setup_logger
+
+logger = setup_logger("IAArcanLogger")
+
+def evaluate_modules(self, context: Dict):
+    logger.info(f"Évaluation des modules pour le contexte : {context}")
+    evaluated = {}
+    self.active_context.update(context)  # Mémorisation dynamique du dernier contexte
+    for name, module in self.modules.items():
+        if context.get("competition") in module.get("contexts", []):
+            score = self.score_module(name, context)
+            evaluated[name] = score
+            logger.info(f"Module {name} évalué avec score {score}")
+    return evaluated
