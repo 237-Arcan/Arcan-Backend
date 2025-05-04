@@ -1,0 +1,23 @@
+{
+    "modules": {
+        "ChronoEcho": {
+            "contexts": ["league", "tournament"],
+            "dormant": false
+        },
+        "ShadowOdds": {
+            "contexts": ["league"],
+            "dormant": true,
+            "trigger": "odds_spike"
+        },
+        "KarmicFlow": {
+            "contexts": ["tournament"],
+            "dormant": true,
+            "trigger": "karmic_event"
+        }
+    },
+    "interfaces": {
+        "statistical": ["OddsPortal", "Betfair"],
+        "esoteric": ["AstroImpact", "TarotBridge"],
+        "behavioral": ["ShadowOdds", "CrowdPressureIndex"]
+    }
+}
