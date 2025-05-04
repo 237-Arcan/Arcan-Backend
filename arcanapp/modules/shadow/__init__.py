@@ -1,3 +1,3 @@
-from .eastern_gate import EasternGate
-
-__all__ = ["EasternGate"]
+def initialize_shadow():
+    Initialise les modules Shadow.
+    print("[Shadow Modules] Initialisation complète.")
