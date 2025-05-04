@@ -1,7 +1,3 @@
-# ArcanX
-Modules ésotériques : gematria, astrologie, numérologie, kabbale, symbolique.
-
-
 # ArcanX – Module Ésotérique et Statistique
 
 Ce module fusionne des techniques ésotériques (numérologie, astrologie, etc.)
