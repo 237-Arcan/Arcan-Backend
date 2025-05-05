@@ -1,0 +1,10 @@
+{
+    "folder": "services",
+    "path": "/data/data/com.termux/files/home/arcan-backend/app/services",
+    "created": "2025-05-02T20:26:40.665451",
+    "files": [
+        "__init__.py",
+        "football_api.py"
+    ],
+    "subfolders": []
+}

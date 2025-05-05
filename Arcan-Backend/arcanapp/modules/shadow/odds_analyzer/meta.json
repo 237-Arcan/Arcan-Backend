@@ -1,0 +1,11 @@
+{
+    "folder": "odds_analyzer",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcanapp/modules/shadow/odds_analyzer",
+    "created": "2025-05-02T20:26:41.702922",
+    "files": [
+        "__init__.py"
+    ],
+    "subfolders": [
+        "__pycache__"
+    ]
+}

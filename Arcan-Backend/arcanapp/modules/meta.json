@@ -1,0 +1,16 @@
+{
+    "folder": "modules",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcanapp/modules",
+    "created": "2025-05-02T20:26:41.687363",
+    "files": [
+        "__init__.py",
+        "README.md"
+    ],
+    "subfolders": [
+        "arcanx",
+        "shadow",
+        "live",
+        "__pycache__",
+        "meta"
+    ]
+}

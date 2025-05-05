@@ -1,0 +1,19 @@
+modules:
+  core:
+    enabled: true
+    log_level: INFO
+  arcanx:
+    enabled: true
+    data_sources:
+      - type: api
+        name: SofaScore
+        endpoint: https://api.sofascore.com
+      - type: file
+        path: data/processed/stats.json
+  shadow:
+    enabled: true
+    odds_providers:
+      - Betfair
+      - Pinnacle
+  live:
+    enabled: true

@@ -1,0 +1,13 @@
+{
+    "folder": "tests",
+    "path": "/data/data/com.termux/files/home/arcan-backend/tests",
+    "created": "2025-05-02T20:26:41.646765",
+    "files": [
+        "test_arcanx.py",
+        "test_shadowodds.py",
+        "test_arcanx_service.py"
+    ],
+    "subfolders": [
+        "__pycache__"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "folder": "live",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcanapp/modules/live",
+    "created": "2025-05-02T20:26:41.710549",
+    "files": [
+        "sentinel.py",
+        "__init__.py",
+        "README.md"
+    ],
+    "subfolders": [
+        "__pycache__",
+        "sentinel"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "patterns": {
+        "mirror_dates": true,
+        "cyclic_scores": true
+    },
+    "default_decoded_pattern": "2-1, cycle réparateur"
+}

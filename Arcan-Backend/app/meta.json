@@ -1,0 +1,24 @@
+{
+    "folder": "app",
+    "path": "/data/data/com.termux/files/home/arcan-backend/app",
+    "created": "2025-05-02T20:26:40.659192",
+    "files": [
+        "routes.py",
+        "__init__.py",
+        "config.py",
+        "routes_test.py",
+        "notifications.py"
+    ],
+    "subfolders": [
+        "services",
+        "core",
+        "utils",
+        "__pycache__",
+        "routes",
+        "config",
+        "meta_levels",
+        "data_weaver",
+        "logging",
+        "analysis"
+    ]
+}

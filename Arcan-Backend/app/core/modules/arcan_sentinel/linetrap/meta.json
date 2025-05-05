@@ -1,0 +1,11 @@
+{
+    "name": "linetrap",
+    "description": "Module linetrap g\u00e9n\u00e9r\u00e9 automatiquement.",
+    "type": "sentinel",
+    "compatible_with": [
+        "live"
+    ],
+    "author": "ArcanForge",
+    "version": "1.0",
+    "enabled": true
+}

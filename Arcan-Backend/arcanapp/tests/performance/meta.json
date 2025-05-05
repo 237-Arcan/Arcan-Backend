@@ -1,0 +1,10 @@
+{
+    "folder": "performance",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcanapp/tests/performance",
+    "created": "2025-05-02T20:26:41.807504",
+    "files": [
+        "test_performance_metrics.py",
+        "test_shadow_performance.py"
+    ],
+    "subfolders": []
+}

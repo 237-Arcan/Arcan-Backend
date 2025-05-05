@@ -1,0 +1,10 @@
+{
+    "folder": "logs",
+    "path": "/data/data/com.termux/files/home/arcan-backend/logs",
+    "created": "2025-05-02T20:26:40.785721",
+    "files": [
+        "app.log",
+        "arcan_backend.log"
+    ],
+    "subfolders": []
+}

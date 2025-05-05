@@ -1,0 +1,11 @@
+{
+    "folder": "architecture_diagrams",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcanapp/arcanapp/architecture_diagrams",
+    "created": "2025-05-02T20:26:41.787568",
+    "files": [
+        "dataflow_graph.png",
+        "modes_graph.png",
+        "arcanshadow_modules.png"
+    ],
+    "subfolders": []
+}

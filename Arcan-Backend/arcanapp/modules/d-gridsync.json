@@ -1,0 +1,8 @@
+{
+    "name": "D-GridSync",
+    "description": "Synchronisation des modules et optimisation des activations futures.",
+    "version": "1.0.0",
+    "author": "ArcanForge",
+    "compatible_with": ["brain"],
+    "status": "active"
+}

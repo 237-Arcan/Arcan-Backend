@@ -1,0 +1,26 @@
+{
+    "neuro_arcan": {
+        "max_simulations": 100,
+        "default_scenario": "base_case"
+    },
+    "anomalic_radar": {
+        "frequency_threshold": 0.7
+    },
+    "karmic_sensor": {
+        "load_threshold": 0.8
+    }
+}
+
+{
+  "reflex_checks": [
+    "prediction_vs_actual_gap",
+    "cycle_breakage_detection",
+    "signal_noise_ratio_check",
+    "emotional_charge_conflict"
+  ],
+  "action_strategies": {
+    "instability_high": "ResetSuggestion",
+    "coherence_medium": "ReflexPulse",
+    "repetition_unbroken": "EchoFault"
+  }
+}

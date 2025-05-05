@@ -1,0 +1,12 @@
+{
+    "folder": "arcan_sentinel",
+    "path": "/data/data/com.termux/files/home/arcan-backend/app/core/arcan_sentinel",
+    "created": "2025-05-02T20:26:40.698314",
+    "files": [
+        "betcounter.py",
+        "__init__.py"
+    ],
+    "subfolders": [
+        "__pycache__"
+    ]
+}

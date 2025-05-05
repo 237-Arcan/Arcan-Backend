@@ -1,0 +1,12 @@
+{
+    "folder": "core",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcanapp/app/core",
+    "created": "2025-05-02T20:26:41.767005",
+    "files": [
+        "__init__.py",
+        "realtime_dashboard.py",
+        "predictive_engine.py",
+        "README.md"
+    ],
+    "subfolders": []
+}

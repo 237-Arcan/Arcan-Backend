@@ -1,0 +1,13 @@
+{
+    "folder": "routes",
+    "path": "/data/data/com.termux/files/home/arcan-backend/app/routes",
+    "created": "2025-05-02T20:26:40.754150",
+    "files": [
+        "match_sim.py",
+        "shadow_odds.py",
+        "__init__.py"
+    ],
+    "subfolders": [
+        "__pycache__"
+    ]
+}

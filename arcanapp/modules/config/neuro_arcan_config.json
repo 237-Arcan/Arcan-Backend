@@ -1,0 +1,6 @@
+{
+    "simulation_parameters": {
+        "max_history_length": 5,
+        "stability_threshold": 0.7
+    }
+}

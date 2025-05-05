@@ -1,0 +1,10 @@
+{
+    "folder": "controllers",
+    "path": "/data/data/com.termux/files/home/arcan-backend/mysite/controllers",
+    "created": "2025-05-02T20:26:41.596670",
+    "files": [
+        "__init__.py",
+        "arcan_shadow.py"
+    ],
+    "subfolders": []
+}

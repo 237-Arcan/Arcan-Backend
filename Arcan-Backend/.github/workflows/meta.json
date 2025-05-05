@@ -1,0 +1,9 @@
+{
+    "folder": "workflows",
+    "path": "/data/data/com.termux/files/home/arcan-backend/.github/workflows",
+    "created": "2025-05-02T20:26:41.843834",
+    "files": [
+        "ci.yml"
+    ],
+    "subfolders": []
+}

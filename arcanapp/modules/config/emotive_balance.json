@@ -1,0 +1,8 @@
+{
+    "emotional_events": {
+        "finale": 0.9,
+        "derby": 0.8,
+        "recent_player_death": 1.0
+    },
+    "default_emotional_weight": 55
+}

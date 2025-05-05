@@ -1,0 +1,6 @@
+{
+    "karmic_parameters": {
+        "max_load": 1.0,
+        "team_weight_factor": 0.5
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "folder": "integration",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcanapp/tests/integration",
+    "created": "2025-05-02T20:26:41.803011",
+    "files": [
+        "test_full_pipeline.py",
+        "test_arcan_sentinel_integration.py",
+        "test_shadow_odds_integration.py",
+        "test_chrono_echo_integration.py"
+    ],
+    "subfolders": []
+}

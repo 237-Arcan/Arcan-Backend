@@ -1,0 +1,13 @@
+{
+    "astrological_impact": {
+        "lune": {
+            "scorpion": 0.9,
+            "gemini": 0.5
+        },
+        "mercure": {
+            "retrograde": 0.8,
+            "direct": 0.2
+        }
+    },
+    "default_sync_score": 42
+}

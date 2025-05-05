@@ -1,0 +1,8 @@
+{
+    "name": "ExplanatoryMode",
+    "description": "Module pour justifier les prédictions des modules.",
+    "version": "1.0.0",
+    "author": "ArcanForge",
+    "compatible_with": ["ui"],
+    "status": "active"
+}

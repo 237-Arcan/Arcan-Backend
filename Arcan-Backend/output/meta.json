@@ -1,0 +1,11 @@
+{
+    "folder": "output",
+    "path": "/data/data/com.termux/files/home/arcan-backend/output",
+    "created": "2025-05-02T20:26:41.904501",
+    "files": [
+        "results_live.json",
+        "results_stats.json",
+        "results_full.json"
+    ],
+    "subfolders": []
+}

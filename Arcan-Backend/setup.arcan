@@ -1,0 +1,88 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+echo ">> [Arcan-Backend Setup] Création de l'arborescence..."
+
+mkdir -p mysite/controllers mysite/services mysite/utils
+
+echo ">> [1/9] Création de flask_app.py"
+cat > flask_app.py <<EOF
+from mysite import create_app
+
+app = create_app()
+
+if __name__ == "__main__":
+    app.run(debug=True)
+EOF
+
+echo ">> [2/9] Création de mysite/__init__.py"
+cat > mysite/__init__.py <<EOF
+from flask import Flask
+
+def create_app():
+    app = Flask(__name__)
+
+    from .routes import main as main_blueprint
+    app.register_blueprint(main_blueprint)
+
+    return app
+EOF
+
+echo ">> [3/9] Création de mysite/routes.py"
+cat > mysite/routes.py <<EOF
+from flask import Blueprint, jsonify
+from .controllers.arcan_shadow import example_analysis
+
+main = Blueprint("main", __name__)
+
+@main.route("/")
+def home():
+    return jsonify({"message": "Bienvenue sur Arcan-Backend!"})
+
+@main.route("/arcan/analyze")
+def analyze():
+    result = example_analysis()
+    return jsonify(result)
+EOF
+
+echo ">> [4/9] Création de mysite/controllers/__init__.py"
+touch mysite/controllers/__init__.py
+
+echo ">> [5/9] Création de mysite/controllers/arcan_shadow.py"
+cat > mysite/controllers/arcan_shadow.py <<EOF
+def example_analysis():
+    return {
+        "module": "ArcanShadow",
+        "status": "ready",
+        "prediction": "Bahia gagne en fin de match"
+    }
+EOF
+
+echo ">> [6/9] Création de mysite/services/external_api.py"
+cat > mysite/services/external_api.py <<EOF
+def fetch_external_data():
+    return {"data": "fake external data"}
+EOF
+
+echo ">> [7/9] Création de mysite/utils/helpers.py"
+cat > mysite/utils/helpers.py <<EOF
+def format_response(data):
+    return {"status": "success", "payload": data}
+EOF
+
+echo ">> [8/9] Création de requirements.txt"
+cat > requirements.txt <<EOF
+Flask==3.0.2
+EOF
+
+echo ">> [9/9] Création de README.md et .gitignore"
+echo "# Arcan-Backend" > README.md
+echo -e "__pycache__/\n*.pyc\nvenv/\n.env" > .gitignore
+
+echo ">> Setup terminé avec succès !"
+echo "-------------------------------------"
+echo "Active ton environnement :"
+echo "   source venv/bin/activate"
+echo "Installe Flask si ce n'est pas déjà fait :"
+echo "   pip install -r requirements.txt"
+echo "Lance le serveur :"
+echo "   flask run --app flask_app.py"

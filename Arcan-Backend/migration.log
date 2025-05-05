@@ -1,0 +1,12 @@
+Déplacé : arcan_loader.py -> app/core/
+Déplacé : add_readme_and_push.sh -> scripts/
+Déplacé : bundle_arcan_backend.sh -> scripts/
+Déplacé : complete_arcan_structure.sh -> scripts/
+Déplacé : create_missing_files.sh -> scripts/
+Déplacé : deploy_arcan.sh -> scripts/
+Déplacé : fix_arcanapp.sh -> scripts/
+Déplacé : fix_arcanapp_modules.sh -> scripts/
+Déplacé : fix_backend.sh -> scripts/
+Déplacé : push_datasets_to_github.sh -> scripts/
+Déplacé : setup_arcan.sh -> scripts/
+Déplacé : migrate_structure.sh -> scripts/

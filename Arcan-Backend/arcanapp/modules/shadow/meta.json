@@ -1,0 +1,23 @@
+{
+    "folder": "shadow",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcanapp/modules/shadow",
+    "created": "2025-05-02T20:26:41.699469",
+    "files": [
+        "odds_analyzer.py",
+        "__init__.py",
+        "README.md"
+    ],
+    "subfolders": [
+        "odds_analyzer",
+        "__pycache__"
+    ]
+}
+
+{
+    "name": "YouthImpactAnalyzer",
+    "description": "Module pour analyser l'impact des jeunes joueurs.",
+    "version": "1.0.0",
+    "author": "ArcanForge",
+    "compatible_with": ["shadow", "sentinel"],
+    "status": "active"
+}

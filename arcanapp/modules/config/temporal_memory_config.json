@@ -1,0 +1,4 @@
+{
+    "max_history": 100,
+    "default_extraction_keys": ["team_a_score", "team_b_score", "time_elapsed"]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "chronoecho",
+    "description": "Module chronoecho g\u00e9n\u00e9r\u00e9 automatiquement.",
+    "type": "shadow",
+    "compatible_with": [
+        "match",
+        "pre-match",
+        "live",
+        "odds"
+    ],
+    "author": "ArcanForge",
+    "version": "1.0",
+    "enabled": true
+}

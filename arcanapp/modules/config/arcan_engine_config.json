@@ -1,0 +1,4 @@
+{
+    "decision_threshold": 0.8,
+    "memory_max_size": 100
+}

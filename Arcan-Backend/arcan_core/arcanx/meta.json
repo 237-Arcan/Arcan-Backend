@@ -1,0 +1,13 @@
+{
+    "folder": "arcanx",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcan_core/arcanx",
+    "created": "2025-05-02T20:26:41.619589",
+    "files": [
+        "__init__.py",
+        "moteur_arcanx.py",
+        "arcanx_service.py"
+    ],
+    "subfolders": [
+        "__pycache__"
+    ]
+}

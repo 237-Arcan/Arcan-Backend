@@ -1,0 +1,13 @@
+{
+    "folder": "meta_levels",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcanapp/app/meta_levels",
+    "created": "2025-05-02T20:26:41.771238",
+    "files": [
+        "__init__.py",
+        "README.md"
+    ],
+    "subfolders": [
+        "time_warper",
+        "data_weaver"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "folder": "shadowodds",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcan_core/shadowodds",
+    "created": "2025-05-02T20:26:41.626584",
+    "files": [
+        "__init__.py",
+        "moteur_shadowodds.py",
+        "shadowodds_service.py"
+    ],
+    "subfolders": [
+        "__pycache__"
+    ]
+}

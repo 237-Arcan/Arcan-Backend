@@ -1,0 +1,16 @@
+{
+    "folder": "modes",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcanapp/modes",
+    "created": "2025-05-02T20:26:41.733287",
+    "files": [
+        "__init__.py",
+        "prediction_mode.py",
+        "live_analysis_mode.py",
+        "statistic_mode.py",
+        "live_analysis_modes.py",
+        "README.md"
+    ],
+    "subfolders": [
+        "__pycache__"
+    ]
+}

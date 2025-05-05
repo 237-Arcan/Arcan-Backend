@@ -1,0 +1,9 @@
+{
+    "folder": "analysis",
+    "path": "/data/data/com.termux/files/home/arcan-backend/app/analysis",
+    "created": "2025-05-02T20:26:40.782179",
+    "files": [
+        "backtest_engine.py"
+    ],
+    "subfolders": []
+}

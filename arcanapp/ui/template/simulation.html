@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mode Simulation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 1rem;
+            background-color: #f4f4f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mode Simulation</h1>
+    <p>Testez vos prédictions sur des matchs historiques.</p>
+    <button onclick="startSimulation()">Lancer la Simulation</button>
+    <div id="results"></div>
+    <script>
+        function startSimulation() {
+            document.getElementById("results").innerHTML = "Simulation en cours...";
+            setTimeout(() => {
+                document.getElementById("results").innerHTML = "Simulation terminée. Résultats disponibles.";
+            }, 2000);
+        }
+    </script>
+</body>
+</html>

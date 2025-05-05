@@ -1,0 +1,10 @@
+{
+    "folder": "routes",
+    "path": "/data/data/com.termux/files/home/arcan-backend/api/routes",
+    "created": "2025-05-02T20:26:41.588503",
+    "files": [
+        "arcanx_routes.py",
+        "shadowodds_routes.py"
+    ],
+    "subfolders": []
+}

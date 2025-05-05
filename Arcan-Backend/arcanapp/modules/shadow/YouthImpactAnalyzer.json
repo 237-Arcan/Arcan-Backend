@@ -1,0 +1,8 @@
+{
+    "name": "YouthImpactAnalyzer",
+    "description": "Module pour analyser l'impact des jeunes joueurs.",
+    "version": "1.0.0",
+    "author": "ArcanForge",
+    "compatible_with": ["shadow", "sentinel"],
+    "status": "active"
+}

@@ -1,0 +1,35 @@
+{
+    "folder": "core",
+    "path": "/data/data/com.termux/files/home/arcan-backend/app/core",
+    "created": "2025-05-02T20:26:40.669925",
+    "files": [
+        "__init__.py",
+        "arcan_loader.py",
+        "config.py",
+        "arcan_archive_trigger.py",
+        "loader.py",
+        "shadow_odds_engine.py",
+        "auth.py",
+        "predictive_engine.py",
+        "realtime_dashboard.py",
+        "main.py",
+        "manager.py",
+        "module_runner.py",
+        "match_downloader.py"
+    ],
+    "subfolders": [
+        "arcanx",
+        "shadowodds",
+        "easterngate",
+        "chrono_echo",
+        "cyclemirror",
+        "arcanbrain",
+        "arcanforge",
+        "arcan_sentinel",
+        "modules",
+        "__pycache__",
+        "meta_levels",
+        "routes",
+        "monitoring"
+    ]
+}

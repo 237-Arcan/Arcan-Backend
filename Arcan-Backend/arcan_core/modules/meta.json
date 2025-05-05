@@ -1,0 +1,13 @@
+{
+    "folder": "modules",
+    "path": "/data/data/com.termux/files/home/arcan-backend/arcan_core/modules",
+    "created": "2025-05-02T20:26:41.634519",
+    "files": [
+        "chrono_echo.py",
+        "cycle_mirror.py",
+        "modules_service.py"
+    ],
+    "subfolders": [
+        "__pycache__"
+    ]
+}

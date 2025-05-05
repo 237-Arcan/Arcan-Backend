@@ -1,0 +1,20 @@
+{
+  "modules_weights": {
+    "ChronoEcho": 0.8,
+    "KarmicFlow": 0.6,
+    "ShadowOdds": 0.7,
+    "LineTrap": 0.5,
+    "CycleMirror": 0.75
+  },
+  "activation_thresholds": {
+    "ReflexPulse": 0.6,
+    "EchoFault": 0.4,
+    "ResetSuggestion": 0.2
+  },
+  "default_live_mode": true,
+  "anomaly_detection": {
+    "but_tardif": true,
+    "penalty_pattern": true,
+    "clutch_time_bias": true
+  }
+}

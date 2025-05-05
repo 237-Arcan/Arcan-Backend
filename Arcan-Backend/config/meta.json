@@ -1,0 +1,12 @@
+{
+    "folder": "config",
+    "path": "/data/data/com.termux/files/home/arcan-backend/config",
+    "created": "2025-05-02T20:26:41.611350",
+    "files": [
+        "settings.yaml",
+        "database.py",
+        "loader.py",
+        "config_service.py"
+    ],
+    "subfolders": []
+}
