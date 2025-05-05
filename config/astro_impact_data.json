@@ -1,0 +1,18 @@
+{
+  "sign_shifts": {
+    "30": "Moon enters Scorpio",
+    "65": "Mercury in Virgo trine Pluto"
+  },
+  "aspects": [
+    {
+      "minute": 45,
+      "aspect": "Venus square Mars",
+      "influence": "Tension accrue, risques de fautes ou clashs"
+    },
+    {
+      "minute": 75,
+      "aspect": "Sun trine Neptune",
+      "influence": "Intuition, inspiration, gestes techniques"
+    }
+  ]
+}
