@@ -1,0 +1,16 @@
+[
+  {
+    "team_a": "Kawasaki Frontale",
+    "team_b": "Yokohama F. Marinos",
+    "date": "2023-05-10",
+    "score": "2-3",
+    "event": "Victoire décisive de Yokohama sur la fin"
+  },
+  {
+    "team_a": "Yokohama F. Marinos",
+    "team_b": "Kawasaki Frontale",
+    "date": "2022-10-15",
+    "score": "1-2",
+    "event": "Renversement tardif de Kawasaki"
+  }
+]
