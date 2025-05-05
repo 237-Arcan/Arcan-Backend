@@ -1,0 +1,19 @@
+{
+  "major_arcana": [
+    {
+      "card": "The Tower",
+      "minute": 60,
+      "meaning": "Effondrement, rupture soudaine, tournant brutal"
+    },
+    {
+      "card": "The Star",
+      "minute": 75,
+      "meaning": "Espoir, renaissance, inspiration inattendue"
+    },
+    {
+      "card": "The Magician",
+      "minute": 30,
+      "meaning": "Maîtrise, créativité, déclencheur technique"
+    }
+  ]
+}
