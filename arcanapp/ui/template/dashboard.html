@@ -205,3 +205,24 @@
     </script>
 </body>
 </html>
+
+<div class="header">
+    <h1>Tableau de Bord - Formules de Mise</h1>
+</div>
+<div id="betting-patterns">
+    <h2>Formules les Plus Jouées</h2>
+    <ul id="patterns-list"></ul>
+</div>
+<script>
+    // Récupérer et afficher les formules de mise les plus jouées
+    fetch('/api/v1/top-betting-patterns')
+        .then(response => response.json())
+        .then(data => {
+            const patternsList = document.getElementById('patterns-list');
+            Object.entries(data.top_betting_patterns).forEach(([pattern, count]) => {
+                const li = document.createElement('li');
+                li.textContent = `${pattern}: ${count} fois`;
+                patternsList.appendChild(li);
+            });
+        });
+</script>
