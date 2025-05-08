@@ -1,0 +1,9 @@
+{
+    "name": "LateGoalPredictor",
+    "origin": "ShadowOdds",
+    "logic": {
+        "condition": "data['minute'] > 80 and data['momentum'] < 0",
+        "reaction": "'Possible late equalizer'"
+    },
+    "dependencies": ["match_state", "volume_fluctuations"]
+}
