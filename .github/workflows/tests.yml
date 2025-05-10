@@ -13,8 +13,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          path: Arcan-Backend
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -23,17 +21,14 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd Arcan-Backend
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Configure PYTHONPATH
-        run: echo "PYTHONPATH=$GITHUB_WORKSPACE/Arcan-Backend" >> $GITHUB_ENV
+      - name: Set PYTHONPATH
+        run: echo "PYTHONPATH=${{ github.workspace }}" >> $GITHUB_ENV
 
-      - name: Copy CI environment variables
-        run: cp Arcan-Backend/tests/.env.ci Arcan-Backend/.env
+      - name: Copy .env file
+        run: cp .env.ci .env
 
-      - name: Run tests with pytest
-        run: |
-          cd Arcan-Backend
-          pytest tests/ --disable-warnings
+      - name: Run tests
+        run: pytest tests/
