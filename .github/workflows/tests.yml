@@ -1,32 +1,39 @@
+name: Run Python tests
+
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   pull_request:
+    branches: [ main ]
 
 jobs:
   test:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: Arcan-Backend
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.12  # Remplacez par votre version si différente
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+      - name: Install dependencies
+        run: |
+          cd Arcan-Backend
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-    - name: Set PYTHONPATH
-      run: echo "PYTHONPATH=${{ github.workspace }}" >> $GITHUB_ENV
+      - name: Configure PYTHONPATH
+        run: echo "PYTHONPATH=$GITHUB_WORKSPACE/Arcan-Backend" >> $GITHUB_ENV
 
-    - name: Check for broken imports
-      run: python detect_broken_imports.py
+      - name: Copy CI environment variables
+        run: cp Arcan-Backend/tests/.env.ci Arcan-Backend/.env
 
-    - name: Run tests
-      run: pytest --maxfail=5 --disable-warnings
+      - name: Run tests with pytest
+        run: |
+          cd Arcan-Backend
+          pytest tests/ --disable-warnings
