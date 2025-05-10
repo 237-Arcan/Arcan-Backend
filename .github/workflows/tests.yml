@@ -1,5 +1,3 @@
-name: Test Workflow for Arcan Backend
-
 on:
   push:
     branches:
