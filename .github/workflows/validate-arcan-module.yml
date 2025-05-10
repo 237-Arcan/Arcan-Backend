@@ -27,5 +27,3 @@ jobs:
       - name: Run tests
         run: |
           pytest tests/
-
-PYTHONPATH=. pytest tests/
